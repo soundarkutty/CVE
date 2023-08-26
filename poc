@@ -1,0 +1,46 @@
+>  Step To Reproduce:
+>
+>  	The following steps outline the exploitation of the stored xss vulnerability in  Blood Bank & Donor Management System Project V2.2 application.:
+>  
+>  	    1.	Launch the Blood Bank & Donor Management System Project V2.2 application.
+>  
+>  	    2.	Open the signup page by accessing the URL: http://localhost/bloodbank/bbdms/sign-up.php.
+>  
+>  	    3.	In the Full Name and Message,Address  insert the following Stored xss  payload shown: "><script>alert("1")</script> and signup 
+>  
+>  	    4.	Click the login button fill username and password and go to "MyAccount" ->  "Profile"
+>
+>       5.  Now xss will trigger and will popup 
+> ------------------------------------------
+>
+> [Vulnerability Type]
+>   Stored cross site scripting
+>
+> ------------------------------------------
+>
+> [Vendor of Product]
+>   https://phpgurukul.com
+>
+> ------------------------------------------
+>
+> [Affected Product Code Base]
+>  Blood Bank & Donor Management System Project V2.2 
+>
+> ------------------------------------------
+>
+> [Attack Type]
+>   Remote
+>
+> ------------------------------------------
+>
+> [Impact Code execution]
+>   true
+>
+> ------------------------------------------
+>
+> [Reference]
+>   https://phpgurukul.com/blood-bank-donor-management-system-free-download/
+> ------------------------------------------
+>
+> [Discoverer]
+>   Soundar 
