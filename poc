@@ -10,7 +10,7 @@
 >  
 >  	    4.	Click the login button fill username and password and go to "MyAccount" ->  "Profile"
 >
->        5.  Now xss will trigger and will popup 
+>           5.  Now xss will trigger and will popup 
 > ------------------------------------------
 >
 > [Vulnerability Type]
