@@ -1,2 +1,2 @@
 # Stored-xss
-CVE-2023-41575 - Stored XSS
+Got My CVE Published CVE-2023-41575 - Stored XSS
